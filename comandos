@@ -1,0 +1,5 @@
+git init //Para inicializar la carpeta con git
+git config user.name "nombre" //Para configurar el nombre de usuario
+git config user.email "ejemplo@email.com" //Para configurar el email asociado
+git remote add origin "https://www.url.com/repositorio.git" //Para agregar la ruta de nuestro repositorio 
+
