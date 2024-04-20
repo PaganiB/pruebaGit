@@ -1,6 +1,33 @@
-git init //Para inicializar la carpeta con git
-git config user.name "nombre" //Para configurar el nombre de usuario
-git config user.email "ejemplo@email.com" //Para configurar el email asociado
-git remote add origin "https://www.url.com/repositorio.git" //Para agregar la ruta de nuestro repositorio 
-git status // Para saber el estado del repositorio
-git add // Para agregar un archivo al repositorio 
+    git init: Inicializa un nuevo repositorio Git en el directorio actual.
+
+    git clone <URL>: Clona un repositorio remoto en tu máquina local.
+
+    git status: Muestra el estado actual del repositorio, incluyendo archivos modificados, archivos en el área de preparación (staging) y archivos sin seguimiento.
+
+    git add <archivo>: Agrega un archivo específico al área de preparación para ser incluido en el próximo commit.
+
+    git add .: Agrega todos los archivos modificados y nuevos al área de preparación.
+
+    git commit -m "<mensaje>": Crea un nuevo commit con los cambios agregados al área de preparación, incluyendo un mensaje que describe los cambios realizados.
+
+    git pull: Trae los cambios del repositorio remoto y los fusiona con tu repositorio local.
+
+    git push: Sube los commits locales al repositorio remoto.
+
+    git branch: Lista todas las ramas en el repositorio local.
+
+    git branch <nombre_rama>: Crea una nueva rama con el nombre especificado.
+
+    git checkout <nombre_rama>: Cambia a la rama especificada.
+
+    git merge <nombre_rama>: Fusiona la rama especificada con la rama actual.
+
+    git log: Muestra el historial de commits en la rama actual.
+
+    git diff: Muestra las diferencias entre los cambios en el área de trabajo y el último commit.
+
+    git remote -v: Muestra los repositorios remotos configurados y sus URLs.
+
+    git remote add <nombre_remoto> <URL>: Agrega un nuevo repositorio remoto con el nombre especificado y la URL proporcionada.
+
+    git remote remove <nombre_remoto>: Elimina el repositorio remoto con el nombre especificado.
